@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="568.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.elms.CombinedController">
+    <children>
+        <AnchorPane layoutX="-3.0" layoutY="-2.0" prefHeight="571.0" prefWidth="264.0" style="-fx-background-color: #43798f;" />
+        <Text fill="#43798fc7" layoutX="354.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account">
+            <font>
+                <Font name="Cambria Bold" size="36.0" />
+            </font>
+        </Text>
+        <TextField fx:id="email" layoutX="444.0" layoutY="169.0" prefHeight="26.0" prefWidth="225.0" />
+        <Text layoutX="380.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+            <font>
+                <Font name="Cambria Bold" size="18.0" />
+            </font>
+        </Text>
+        <TextField fx:id="name" layoutX="441.0" layoutY="232.0" prefHeight="26.0" prefWidth="231.0" />
+        <Text layoutX="380.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+            <font>
+                <Font name="Cambria Bold" size="18.0" />
+            </font>
+        </Text>
+        <PasswordField fx:id="password" layoutX="440.0" layoutY="297.0" prefHeight="26.0" prefWidth="237.0" />
+        <Text layoutX="351.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+            <font>
+                <Font name="Cambria Bold" size="18.0" />
+            </font>
+        </Text>
+        <Button layoutX="439.0" layoutY="382.0" mnemonicParsing="false" onAction="#tovedio" onMousePressed="#registerUser" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #43798f;" text="Register" textFill="#180707">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

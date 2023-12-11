@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Register"  prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #36b1c4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.elms.controller">
+   <children>
+      <Text fill="#36b1c4bf" layoutX="51.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="27.349998474121094" />
+      <TextField layoutX="132.0" layoutY="132.0" prefHeight="20.0" prefWidth="181.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </TextField>
+      <Text fill="#1d25f0" layoutX="121.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coursetta!">
+         <font>
+            <Font name="Cambria Bold" size="48.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="1.0" layoutY="313.0" prefHeight="136.0" prefWidth="150.0" style="-fx-background-color: #62cdd1;" />
+      <Text fill="#7f17d1eb" layoutX="107.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn On Your Schedule.">
+         <font>
+            <Font name="Cambria Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="350.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #1d25f0;" text="About" textFill="#f2f1f1">
+         <font>
+            <Font name="Cambria" size="8.0" />
+         </font>
+      </Button>
+      <Button layoutX="398.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #1d25f0;" text="Learn" textFill="#faf2f2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Button>
+      <Button layoutX="447.0" layoutY="12.0" mnemonicParsing="false" style="-fx-background-color: #1d25f0;" text="Contact us" textFill="#efe8e8">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Button>
+      <Button layoutX="516.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #1d25f0;" text="Logout" textFill="#ece4e4">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: #1d25f0;" text="Home" textFill="#f4efef">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="454.0" layoutY="310.0" prefHeight="138.0" prefWidth="158.0" style="-fx-background-color: #62cdd1;" />
+      <Text layoutX="68.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anywhere,Anytime Start Learning Today!!!">
+         <font>
+            <Font name="Cambria Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="266.0" layoutY="133.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="47.0" text="Search">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Button>
+      <Button layoutX="240.0" layoutY="261.0" mnemonicParsing="false" onAction="#toregister" style="-fx-background-color: #1d25f0;" text="Register" textFill="#fbfcf8" />
+   </children>
+</AnchorPane>
